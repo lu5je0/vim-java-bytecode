@@ -20,12 +20,3 @@ Or, using [Pathogen](https://github.com/tpope/vim-pathogen):
 cd ~/.vim/bundle
 git clone https://github.com/neapel/vim-java-bytecode.git
 ```
-
-## Configuration
-
-This doesn't contain a file detector, for automatic highlighting, set up an autocommand:
-
-```
-au BufNewFile,BufRead *.javap setf java-bytecode
-```
-
